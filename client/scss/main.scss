@@ -1,0 +1,85 @@
+$border-solid: solid 1px #eee;
+$border-dashed: dashed 1px #cfcfcf;
+
+.col--menu {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: $border-solid;
+}
+
+.col--header {
+    display: none;
+    margin-top: 2rem;
+}
+
+.appt-btn-ctn {
+    text-align: right;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: $border-solid;
+
+    .btn {
+        margin-left: 10px;
+    }
+
+    &.appt-btn-ctn--delete {
+        margin-top: 0;
+        border-top: none;
+        text-align: center;
+    }
+}
+
+.col--appt-ctn {
+    padding-top: 1rem;
+}
+
+.row--header {
+    border-bottom: $border-solid;
+}
+
+.row--appt-entry {
+    border-bottom: $border-dashed;
+
+    &:hover {
+        background-color: #f5f5f5;
+        cursor: default;
+    }
+    &.below-delete {
+        border-top: $border-dashed;
+    }
+}
+
+.row--appt-entry-dialog {
+    margin-top: 2rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.has-warning::after {
+    content: 'This field is required';
+    font-size: 12px;
+    color: #ff9800;
+}
+
+.delete-entry-dialog {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.material-icons {
+    padding: 1.5rem 0.5rem;
+    color: #d8d8d8;
+    transition: all 0.2s ease;
+
+    &:hover {
+        cursor: pointer;
+        transition: all 0.2s ease;
+    }
+    &.editApptEntry:hover {
+        color: #2196f3;
+    }
+    &.deleteApptEntry:hover {
+        color: #cb171e;
+    }
+}

@@ -1,0 +1,96 @@
+.a-header {
+    border-bottom: solid 1px #eee;
+}
+
+.inline-apptEntryForm{
+    margin-top: 2rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.apptEntryRow {
+    border-bottom: dashed 1px #cfcfcf;
+}
+
+.apptEntryRow a{
+    font-size: 13px;
+}
+
+.apptEntryRow:hover {
+    background-color: #f5f5f5;
+    cursor: default;
+}
+
+.apptEntryRow.apptEntryRow--below-delete{
+    border-top: dashed 1px #cfcfcf;
+}
+
+#apptContainer {
+    padding-top: 1rem;
+}
+
+
+#apptContainer a:hover{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.has-warning::after {
+    content: 'This field is required';
+    font-size: 12px;
+    color: #ff9800;
+}
+
+.appt-btn-ctn {
+    text-align: right;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: solid 1px #eee;
+}
+
+.appt-btn-ctn .btn {
+    margin-left: 10px;
+}
+
+.appt-btn-ctn.appt-btn-ctn--delete {
+    text-align: center;
+}
+
+.delete-entry-dialog {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#apptMenuContainer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: solid 1px #eee;
+}
+
+#apptHeaderContainer {
+    margin-top: 2rem;
+}
+
+#apptHeaderContainer {
+    margin-top: 2rem;
+}
+
+.material-icons {
+    padding: 1.5rem 0.5rem;
+    color: #d8d8d8;
+    transition: all 0.2s ease;
+}
+
+.material-icons:hover {
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.material-icons.editApptEntry:hover {
+    color: #2196f3;
+}
+
+.material-icons.deleteApptEntry:hover {
+    color: #cb171e;
+}

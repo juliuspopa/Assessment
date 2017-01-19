@@ -1,0 +1,18 @@
+{
+  "name": "assessment",
+  "version": "1.0.0",
+  "description": "hia technical assessment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path client client/scss/main.scss client/css/compiled.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "clean-css": "cleancss -o client/css/compiled-min.css client/css/compiled.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Assessment"
+  },
+  "author": "Julius Popa",
+  "license": "ISC"
+}
